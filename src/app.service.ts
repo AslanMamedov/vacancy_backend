@@ -7,6 +7,7 @@ import * as uuid from 'uuid';
 import { answers } from './constants/answers';
 
 const vacancyData = {};
+let svSended = false;
 @Injectable()
 export class AppService {
   getVacancies(): Promise<IVacany[]> {
@@ -102,6 +103,7 @@ export class AppService {
               questinCount: questionList.length,
               rightAnswer: point,
             },
+            cvSended: svSended,
           });
         }, 1000);
       });
@@ -110,8 +112,9 @@ export class AppService {
     }
   }
 
-  applyCV({ data, id, answerId }: any) {
-    console.log(data, id, answerId);
+  applyCV() {
+    // console.log(data, id, answerId);
+    svSended = true;
     const ID = uuid.v4();
     return { ID };
   }

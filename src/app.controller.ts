@@ -71,10 +71,10 @@ export class AppController {
     }),
   )
   uploadFile(@UploadedFile() file: Express.Multer.File) {
-    console.log(file);
-    return {
-      message: 'File uploaded successfully',
-      filePath: `/uploads/${file.filename}`,
-    };
+    // const s = {
+    //   message: 'File uploaded successfully',
+    //   filePath: `/uploads/${file.filename}`,
+    // };
+    return this.appService.applyCV();
   }
 }
