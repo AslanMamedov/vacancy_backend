@@ -1,3 +1,7 @@
+import { FileInterceptor } from '@nestjs/platform-express';
+import { AppService } from './app.service';
+import { IVacany } from './types';
+import * as uuid from 'uuid';
 import {
   Body,
   Controller,
@@ -7,18 +11,9 @@ import {
   UploadedFile,
   UseInterceptors,
 } from '@nestjs/common';
-import { AppService } from './app.service';
-import { FileInterceptor } from '@nestjs/platform-express';
-
 import { diskStorage } from 'multer';
 import { extname } from 'path';
-export interface IVacany {
-  id: string | number;
-  title: string;
-  description: string;
-  created_at: string;
-  endDate: string;
-}
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
@@ -50,7 +45,7 @@ export class AppController {
         destination: './uploads',
         filename: (req, file, callback) => {
           const fileExt = extname(file.originalname);
-          const fileName = `${file.originalname.split('.')[0]}-${Date.now()}${fileExt}`;
+          const fileName = `${uuid.v4()}${fileExt}`;
           callback(null, fileName);
         },
       }),

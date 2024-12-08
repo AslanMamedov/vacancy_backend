@@ -9,7 +9,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Vue', value: '2' },
       { label: 'Angular', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '2': {
     question: 'CSS preprocessorlardan hansını daha çox istifadə edirsiniz?',
@@ -18,7 +17,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'LESS', value: '2' },
       { label: 'Stylus', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '3': {
     question:
@@ -28,7 +26,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Async/await və tənbəl yükləmə', value: '2' },
       { label: 'Hər ikisini istifadə edirəm', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '4': {
     question:
@@ -38,7 +35,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Mercurial', value: '2' },
       { label: 'SVN', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '5': {
     question: 'Testlər yazmaq üçün hansı alətdən istifadə edirsiniz?',
@@ -47,7 +43,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Mocha', value: '2' },
       { label: 'Karma', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '6': {
     question: 'Hansı UI kitabxanasını daha çox istifadə edirsiniz?',
@@ -56,7 +51,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Ant Design', value: '2' },
       { label: 'Tailwind CSS', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '7': {
     question:
@@ -66,7 +60,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'JavaScript API-lərin dəstəklənməsi', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '8': {
     question: 'Responsiv dizayn üçün hansı yanaşmanı üstün tutursunuz?',
@@ -75,7 +68,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Flexbox və Grid', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '9': {
     question:
@@ -85,7 +77,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'MobX', value: '2' },
       { label: 'Context API', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '10': {
     question:
@@ -95,7 +86,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Rəng və tipoqrafiya uyğunluğu', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '11': {
     question:
@@ -105,7 +95,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Webpack Bundle Analyzer', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '12': {
     question: 'Hansı JSON işləmə üsulunu daha çox istifadə edirsiniz?',
@@ -114,7 +103,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Custom serializer və deserializer', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '13': {
     question: 'Hansı brauzer inkişaf etdirici alətindən istifadə edirsiniz?',
@@ -123,7 +111,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'Firefox Developer Tools', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '14': {
     question:
@@ -133,7 +120,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'GSAP', value: '2' },
       { label: 'Anime.js', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '15': {
     question: 'Hansı frontend paket idarəetmə alətindən istifadə edirsiniz?',
@@ -142,7 +128,6 @@ export const frontendQuestions: IQuestions = {
       { label: 'yarn', value: '2' },
       { label: 'pnpm', value: '3' },
     ],
-    // rightAnswer: '1',
   },
 };
 
@@ -155,7 +140,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Python', value: '2' },
       { label: 'PHP', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '2': {
     question: 'RESTful API-ləri hansı prinsiplərə əsaslanaraq qurursunuz?',
@@ -164,7 +148,6 @@ export const backendQuestions: IQuestions = {
       { label: 'HATEOAS', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '3': {
     question: 'Database üçün hansı idarəetmə sistemindən istifadə edirsiniz?',
@@ -173,7 +156,6 @@ export const backendQuestions: IQuestions = {
       { label: 'PostgreSQL', value: '2' },
       { label: 'MongoDB', value: '3' },
     ],
-    // rightAnswer: '2',
   },
   '4': {
     question: 'CORS məsələlərini necə idarə edirsiniz?',
@@ -182,7 +164,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Proxy serverlərdən istifadə edərək', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '5': {
     question:
@@ -192,7 +173,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Memcached', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '6': {
     question:
@@ -202,7 +182,6 @@ export const backendQuestions: IQuestions = {
       { label: 'SQL Injection qorunması', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '7': {
     question: 'Microservices arxitekturasını hansı hallarda seçirsiniz?',
@@ -211,7 +190,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Kiçik layihələrdə', value: '2' },
       { label: 'Hər ikisində', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '8': {
     question: 'Hansı test metodlarından istifadə edirsiniz?',
@@ -220,7 +198,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Integration testlər', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '9': {
     question: 'Hansı API dokumentasiya alətini daha çox istifadə edirsiniz?',
@@ -229,7 +206,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Postman', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '10': {
     question: 'Load balanslama üsullarından hansını tətbiq edirsiniz?',
@@ -238,7 +214,6 @@ export const backendQuestions: IQuestions = {
       { label: 'IP Hashing', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '11': {
     question:
@@ -248,7 +223,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Kafka', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '12': {
     question: 'CI/CD proseslərini hansı alətlərlə idarə edirsiniz?',
@@ -257,7 +231,6 @@ export const backendQuestions: IQuestions = {
       { label: 'GitHub Actions', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '13': {
     question: 'Hansı bulud provayderindən istifadə edirsiniz?',
@@ -266,7 +239,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Google Cloud', value: '2' },
       { label: 'Microsoft Azure', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '14': {
     question: 'Hansı loglama alətini daha çox istifadə edirsiniz?',
@@ -275,7 +247,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Pino', value: '2' },
       { label: 'Logstash', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '15': {
     question:
@@ -285,7 +256,6 @@ export const backendQuestions: IQuestions = {
       { label: 'Mərkəzi səhv idarəetmə', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
 };
 
@@ -298,7 +268,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Windows Server', value: '2' },
       { label: 'MacOS', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '2': {
     question: 'Konteynerləşdirmə üçün hansı alətdən istifadə edirsiniz?',
@@ -307,7 +276,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Kubernetes', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '3': {
     question: 'CI/CD prosesləri üçün hansı vasitələrdən istifadə edirsiniz?',
@@ -316,7 +284,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'GitLab CI/CD', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '4': {
     question: 'Hansı konfiqurasiya idarəetmə alətinə üstünlük verirsiniz?',
@@ -325,7 +292,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Chef', value: '2' },
       { label: 'Puppet', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '5': {
     question: 'Monitorinq və loqlama üçün hansı alətlərdən istifadə edirsiniz?',
@@ -334,7 +300,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Grafana', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '6': {
     question: 'Load balanslama üçün hansı strategiyanı tətbiq edirsiniz?',
@@ -343,7 +308,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'IP Hashing', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '7': {
     question:
@@ -353,7 +317,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'CloudFormation', value: '2' },
       { label: 'Hər ikisini', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '8': {
     question:
@@ -363,7 +326,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'SSH açarları', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '9': {
     question: 'Hansı bulud provayderini daha üstün tutursunuz?',
@@ -372,7 +334,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Azure', value: '2' },
       { label: 'Google Cloud', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '10': {
     question: 'Sıxlıqla qarşılaşılan sistem problemlərini necə həll edirsiniz?',
@@ -381,7 +342,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Root cause analysis (RCA)', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '11': {
     question: 'Backup strategiyasını necə qurursunuz?',
@@ -390,7 +350,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Diferensial backup', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '12': {
     question:
@@ -400,7 +359,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Netcat', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '13': {
     question:
@@ -410,7 +368,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'SVN', value: '2' },
       { label: 'Mercurial', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '14': {
     question: 'Hansı təhlükəsizlik skaneri ilə sistemləri yoxlayırsınız?',
@@ -419,7 +376,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'OWASP ZAP', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '15': {
     question:
@@ -429,7 +385,6 @@ export const devOpsQuestions: IQuestions = {
       { label: 'Graylog', value: '2' },
       { label: 'Hər ikisi', value: '3' },
     ],
-    // rightAnswer: '3',
   },
 };
 
@@ -448,7 +403,6 @@ export const uiUxDesignerQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '2': {
     question: 'Bir istifadəçi testi necə təşkil edərsiniz?',
@@ -460,7 +414,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       },
       { label: 'Hər ikisini istifadə edərdim', value: '3' },
     ],
-    // rightAnswer: '3',
   },
   '3': {
     question: 'Wireframe və prototiplər arasındakı fərq nədir?',
@@ -473,7 +426,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Wireframe və prototiplər eynidir', value: '2' },
       { label: 'Wireframe interaktiv, prototiplər isə statikdir', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '4': {
     question: 'UI dizaynı prosesində hansı alətləri istifadə edirsiniz?',
@@ -482,7 +434,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Microsoft Word, Excel', value: '2' },
       { label: 'Corel Draw, Photoshop', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '5': {
     question: 'UX dizaynı üçün hansı metodları istifadə edirsiniz?',
@@ -491,7 +442,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadece vizual dizayn', value: '2' },
       { label: 'Yalnız strukturlaşdırılmış yazılar', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '6': {
     question: 'Rəng palitrası seçərkən hansı amilləri nəzərə alırsınız?',
@@ -503,7 +453,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadəcə gözəl görünməsi', value: '2' },
       { label: 'Sadəcə kontrast olması', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '7': {
     question:
@@ -513,7 +462,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadəlik və zövq alma', value: '2' },
       { label: 'Yalnız zövq alma', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '8': {
     question:
@@ -523,7 +471,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadəcə şriftin stilini', value: '2' },
       { label: 'İstifadəçi rəyi', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '9': {
     question: 'İstifadəçi araşdırmalarında hansı üsulları istifadə edirsiniz?',
@@ -532,7 +479,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Yalnız anketlər', value: '2' },
       { label: 'Sadəcə fokus qrupları', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '10': {
     question: 'İstifadəçi təcrübəsi dizaynı zamanı hansı əsas məqsədiniz var?',
@@ -541,7 +487,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Yalnız görünüşü yaxşılaşdırmaq', value: '2' },
       { label: 'Texnoloji yeniliklər təqdim etmək', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '11': {
     question: 'Hansı dizayn prinsipini daha çox ön planda tutursunuz?',
@@ -550,7 +495,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Təkrar istifadə oluna bilən komponentlər', value: '2' },
       { label: 'Yalnız estetik cəhətdən gözəl görünmək', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '12': {
     question: 'Mətnin dizaynını hazırlayarkən nəyi diqqətə alırsınız?',
@@ -559,7 +503,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadəcə şrift seçimi', value: '2' },
       { label: 'Yalnız rəng seçimi', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '13': {
     question:
@@ -569,7 +512,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Sadece Figma', value: '2' },
       { label: 'Sadece Photoshop', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '14': {
     question:
@@ -579,7 +521,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Photoshop', value: '2' },
       { label: 'WordPress', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '15': {
     question: 'Bir dizayn layihəsində nə zaman test etməyə başlayırsınız?',
@@ -588,7 +529,6 @@ export const uiUxDesignerQuestions: IQuestions = {
       { label: 'Final dizaynı hazır olduqda', value: '2' },
       { label: 'Yalnız tamamlanmış məhsulda', value: '3' },
     ],
-    // rightAnswer: '1',
   },
 };
 
@@ -610,7 +550,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '2': {
     question: 'Pandas kitabxanası ilə nə cür əməliyyatlar edə bilərsiniz?',
@@ -619,7 +558,6 @@ export const dataScientistQuestions: IQuestions = {
       { label: 'Veb saytlar yaratmaq', value: '2' },
       { label: 'Verilənlər bazasına qoşulmaq', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '3': {
     question: 'SQL-də JOIN əməliyyatı nədir və hansı məqsədlə istifadə olunur?',
@@ -634,7 +572,6 @@ export const dataScientistQuestions: IQuestions = {
       },
       { label: 'Məlumatların sıralanması üçün istifadə olunur', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '4': {
     question: 'Regression analizi nədir?',
@@ -650,7 +587,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '5': {
     question: 'Logistic Regression nə üçün istifadə olunur?',
@@ -669,7 +605,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '6': {
     question: 'Neural Networks nədir və hansı sahələrdə istifadə olunur?',
@@ -685,7 +620,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '7': {
     question:
@@ -705,7 +639,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '8': {
     question: 'K-Means alqoritması nədir?',
@@ -724,7 +657,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '9': {
     question: 'Overfitting və Underfitting arasındakı fərqlər nədir?',
@@ -745,7 +677,6 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
   '10': {
     question:
@@ -755,7 +686,6 @@ export const dataScientistQuestions: IQuestions = {
       { label: 'Flask, Django', value: '2' },
       { label: 'React, Angular', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '11': {
     question: 'Verilənlər bazasında Normalization nədir?',
@@ -771,7 +701,6 @@ export const dataScientistQuestions: IQuestions = {
       },
       { label: 'Məlumatların sıralanması üçün istifadə olunur', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '12': {
     question: 'Time series təhlilində hansı metodlardan istifadə edilir?',
@@ -780,7 +709,6 @@ export const dataScientistQuestions: IQuestions = {
       { label: 'Linear regression, Logistic regression', value: '2' },
       { label: 'Decision Trees, K-NN', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '13': {
     question: 'Bias və variance anlayışlarını necə izah edərsiniz?',
@@ -797,7 +725,6 @@ export const dataScientistQuestions: IQuestions = {
       },
       { label: 'Bias və variance eyni şeydir', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '14': {
     question: 'Data Science layihələrində hansı mərhələlər mövcuddur?',
@@ -810,7 +737,6 @@ export const dataScientistQuestions: IQuestions = {
       { label: 'Məlumat toplama, analiz və təqdimat', value: '2' },
       { label: 'Model qurma və test', value: '3' },
     ],
-    // rightAnswer: '1',
   },
   '15': {
     question: 'Deep Learning modelləri hansı xüsusiyyətə malikdir?',
@@ -830,6 +756,5 @@ export const dataScientistQuestions: IQuestions = {
         value: '3',
       },
     ],
-    // rightAnswer: '1',
   },
 };
