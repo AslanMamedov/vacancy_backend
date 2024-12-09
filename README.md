@@ -14,4 +14,4 @@ The backend of the Job Tracking Web Portal provides a reliable and scalable foun
 ### Technologies
 
 - **Backend Framework**: NestJS.
-[Vacancy Frontend](https://github.com/AslanMamedov/vacanciesapp)
+- **Frontend link**: [Vacancy Frontend](https://github.com/AslanMamedov/vacanciesapp)
