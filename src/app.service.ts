@@ -56,6 +56,7 @@ export class AppService {
 
   applayVacancy({ data }: any) {
     const id = uuid.v4();
+    svSended = false;
     vacancyData[id] = {
       userData: data?.userData,
       answers: data?.answerQuestions,
